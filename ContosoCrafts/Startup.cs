@@ -28,6 +28,7 @@ namespace ContosoCrafts
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddServerSideBlazor();
             services.AddTransient<JsonFileProductService>();
             services.AddControllers();
         }
@@ -57,6 +58,7 @@ namespace ContosoCrafts
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
+                endpoints.MapBlazorHub();
                 // endpoints.MapGet("/products", (context) =>
                 // {
                 //     var products = app.ApplicationServices.GetService<JsonFileProductService>().GetProducts();

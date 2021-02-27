@@ -35,3 +35,7 @@ C:\Users\Heba Momen\RiderProjects\WebApplication\ContosoCrafts\obj\Debug\netcore
 C:\Users\Heba Momen\RiderProjects\WebApplication\ContosoCrafts\obj\Debug\netcoreapp3.1\ContosoCrafts.pdb
 C:\Users\Heba Momen\RiderProjects\WebApplication\ContosoCrafts\obj\Debug\netcoreapp3.1\ContosoCrafts.genruntimeconfig.cache
 C:\Users\Heba Momen\RiderProjects\WebApplication\ContosoCrafts\obj\Debug\netcoreapp3.1\ContosoCrafts.csproj.CopyComplete
+C:\Users\Heba Momen\RiderProjects\WebApplication\ContosoCrafts\obj\Debug\netcoreapp3.1\ContosoCrafts.RazorComponent.input.cache
+C:\Users\Heba Momen\RiderProjects\WebApplication\ContosoCrafts\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\ProductList.razor.g.cs
+C:\Users\Heba Momen\RiderProjects\WebApplication\ContosoCrafts\obj\Debug\netcoreapp3.1\RazorDeclaration\ContosoCrafts.dll
+C:\Users\Heba Momen\RiderProjects\WebApplication\ContosoCrafts\obj\Debug\netcoreapp3.1\Razor\Components\ProductList.razor.g.cs

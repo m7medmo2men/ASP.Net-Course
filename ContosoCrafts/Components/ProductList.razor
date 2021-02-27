@@ -1,0 +1,41 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using ContosoCrafts.Models
+@using ContosoCrafts.Services
+@inject JsonFileProductService ProductService
+
+<h3>ProductList</h3>
+
+<div class="card-columns">
+    @foreach (var product in ProductService.GetProducts())
+    {
+        <div class="card">
+            <div class="card-img" style="background-image: url('@product.Image');"></div>
+            <div class="card-body">
+                <h5 class="card-title">@product.Title</h5>
+            </div>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">
+                <button @onclick="(e) => selectProduct(product.Id)"
+                         data-toggle="modal"
+                         data-target="#productModal"
+                         class="btn btn-primary">
+                    
+                    More Info
+                </button>
+            </small>
+        </div>
+    } 
+</div>
+
+@code {
+    Product selectedProduct;
+    string selectProductId;
+
+    void selectProduct(string productId)
+    {
+        selectProductId = productId;
+        selectedProduct = ProductService.GetProducts().First(x => x.Id == productId);
+    }
+
+}
