@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoCrafts", "ContosoCrafts\ContosoCrafts.csproj", "{CC54AB09-E229-496D-819A-1356E2F853CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC54AB09-E229-496D-819A-1356E2F853CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC54AB09-E229-496D-819A-1356E2F853CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC54AB09-E229-496D-819A-1356E2F853CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC54AB09-E229-496D-819A-1356E2F853CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
